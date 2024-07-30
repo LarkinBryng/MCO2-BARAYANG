@@ -154,7 +154,7 @@ public class Reservation {
     }
 
     private void applyPaydayDiscount() {
-        if (checkInDate == 15 || checkOutDate == 15 || checkInDate == 30 || checkOutDate == 30) {
+        if (checkInDate == 15 || checkOutDate == 16 || checkInDate == 28 || checkOutDate == 31) {
             totalPrice *= (1 - PAYDAY_DISCOUNT);
         }
     }
